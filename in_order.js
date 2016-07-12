@@ -1,6 +1,5 @@
 module.exports = function pre_order(tree) {
-  //in pre order we handle the data in the current node First
-  //handling the data will be a simple console.log
+  //in order, we go left, current, right
 
   //first check that tree.left is not null
   //we can then recursively call pre_order again with tree.left passed in
